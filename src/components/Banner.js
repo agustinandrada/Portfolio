@@ -80,28 +80,13 @@ const Banner = () => {
                 Baden-Powell
               </h2>
             </motion.div>
+            {/* socials */}
             <motion.div
               variants={fadeIn("up", 1.5)}
               initial="hidden"
               whileInView={"show"}
               viewport={{ once: false, amount: 0.7 }}
-              className="flex max-w-max gap-x-6 items-center mb-12
-            mx-auto lg:mx-0"
-            >
-              <a
-                href="https://wa.me/5493424286655"
-                className="text-gradient btn-link flex text-[18px]"
-              >
-                Contact Me
-              </a>
-            </motion.div>
-            {/* socials */}
-            <motion.div
-              variants={fadeIn("up", 2)}
-              initial="hidden"
-              whileInView={"show"}
-              viewport={{ once: false, amount: 0.7 }}
-              className="flex text-[30px] gap-x-6 max-w-max mx-auto
+              className="flex text-[20px] gap-x-6 max-w-max mx-auto
             lg:mx-0"
             >
               <a href="https://github.com/agustinandrada">
@@ -112,6 +97,21 @@ const Banner = () => {
               </a>
               <a href="https://www.youtube.com/@NoPasaNadaOficial-ow8ci">
                 <FaYoutube />
+              </a>
+            </motion.div>
+            <motion.div
+              variants={fadeIn("up", 2)}
+              initial="hidden"
+              whileInView={"show"}
+              viewport={{ once: false, amount: 0.7 }}
+              className="flex max-w-max gap-x-6 items-center mb-12
+            mx-auto lg:mx-0 py-5"
+            >
+              <a
+                href="https://wa.me/5493424286655"
+                className="text-gradient btn-link flex text-[18px]"
+              >
+                Contact Me
               </a>
             </motion.div>
           </div>

@@ -4,7 +4,7 @@ import Logo from "../assets/MiNombre.png";
 
 const Header = () => {
   return (
-    <header className="py-8">
+    <header className="py-1">
       <div className="container mx-auto">
         <div className="flex justify-between items-center">
           {/* logo */}
