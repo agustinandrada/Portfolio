@@ -29,12 +29,6 @@ const services = [
       "Application made from the Dog API, in which for each existing dog breed a letter with information about the dog was shown, with combinable filters, pagination, its own database and deployed.",
     link: "#",
   },
-  {
-    name: "Rick and Morty app",
-    description:
-      "Application made from the Rick and Morty API, in which for each existing character in the series, a letter with information about the character was displayed, with combinable filters, a logging and paging system.",
-    link: "#",
-  },
 ];
 
 const Services = () => {

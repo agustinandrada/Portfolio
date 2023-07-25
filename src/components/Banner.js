@@ -89,13 +89,19 @@ const Banner = () => {
               className="flex text-[20px] gap-x-6 max-w-max mx-auto
             lg:mx-0"
             >
-              <a href="https://github.com/agustinandrada">
+              <a href="https://github.com/agustinandrada" target="_blank">
                 <FaGithub />
               </a>
-              <a href="https://www.linkedin.com/in/agustinandrada-fwd">
+              <a
+                href="https://www.linkedin.com/in/agustinandrada-fwd"
+                target="_blank"
+              >
                 <FaLinkedin />
               </a>
-              <a href="https://www.youtube.com/@NoPasaNadaOficial-ow8ci">
+              <a
+                href="https://www.youtube.com/@NoPasaNadaOficial-ow8ci"
+                target="_blank"
+              >
                 <FaYoutube />
               </a>
             </motion.div>
@@ -110,6 +116,7 @@ const Banner = () => {
               <a
                 href="https://wa.me/5493424286655"
                 className="text-gradient btn-link flex text-[18px]"
+                target="_blank"
               >
                 Contact Me
               </a>
