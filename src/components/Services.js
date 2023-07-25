@@ -13,8 +13,7 @@ import { fadeIn } from "../variants";
 const services = [
   {
     name: "SportWear Ecommerce",
-    description:
-      "Platform for selling sports supplies with features like combined filters, platform payment, database integration, Cloudinary for media management, local storage, logging system, and both third-party and local authentication.",
+    description: "Platform for selling sports supplies.",
     link: "https://sportwear.vercel.app",
   },
   {
@@ -25,8 +24,7 @@ const services = [
   },
   {
     name: "Dogs app",
-    description:
-      "Application made from the Dog API, in which for each existing dog breed a letter with information about the dog was shown, with combinable filters, pagination, its own database and deployed.",
+    description: "Application made from the Dog API.",
     link: "#",
   },
 ];
