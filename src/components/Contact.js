@@ -42,6 +42,7 @@ const Contact = () => {
               className="bg-transparent border-b py-3 outline-none w-full placeholder:text-white focus:border-accent transition-all"
               type="text"
               placeholder="Nombre"
+              name="name"
             />
             <input
               className="bg-transparent border-b py-3 outline-none w-full placeholder:text-white focus:border-accent transition-all"
@@ -52,7 +53,7 @@ const Contact = () => {
             <textarea
               className="bg-transparent border-b py-3 outline-none w-full placeholder:text-white focus:border-accent transition-all resize-none mb-12"
               placeholder="Mensaje"
-              name="name"
+              name="message"
             />
             <button className="btn btn-lg" type="submit">
               Enviar Mensaje
