@@ -51,7 +51,7 @@ const Work = () => {
               >
                 <div>
                   <h2 className="h3 mb-4 titulo-link">
-                    <a href="https://unbcollections.com.ar">UNB Collection</a>
+                    <a href="https://unbcollections.com.ar" target="_blank">UNB Collection</a>
                   </h2>
                   <h3 className="max-w-sm mb-2">
                     UNB COLLECTIONS S.A. es una empresa argentina conformada por profesionales con amplia trayectoria
@@ -73,7 +73,7 @@ const Work = () => {
               >
                 <div>
                   <h2 className="h3 mb-4 titulo-link">
-                    <a href="https://sistemanube.com">Sistema Nube</a>
+                    <a href="https://sistemanube.com" target="_blank">Sistema Nube</a>
                   </h2>
                   <h3 className="max-w-sm mb-2">
                     Sistema enlazado con tienda nube, que sirve para la gestión de e-commerce, mediante comodas interfaces para el usuario
@@ -94,7 +94,7 @@ const Work = () => {
               >
                 <div>
                   <h2 className="h3 mb-4 titulo-link">
-                    <a href="https://sistemanube.com">Freelance</a>
+                    <a href="https://agustin-andrada.vercel.app" target="_blank">Freelance</a>
                   </h2>
                   <h3 className="max-w-sm mb-2">
                     Como freelance, me encargo de crear soluciones para pequeños y medianos negocios. Tratando siempre de buscar
