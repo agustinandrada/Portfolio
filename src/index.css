@@ -23,6 +23,25 @@
   );
 }
 
+.titulo-link{
+  transition: 0.3s;
+}
+
+.titulo-link:hover{
+  color: #ff56f6 ;
+  cursor: pointer;
+}
+
+.imagen-proyecto{
+  transition: 0.3s;
+}
+
+.imagen-proyecto:hover{
+  cursor: pointer;
+  transform: scale(1.03);
+  filter: brightness(0.04);
+}
+
 .gradient,
 .active {
   background: linear-gradient(
@@ -43,6 +62,9 @@
 @layer base {
   body {
     @apply font-secondary text-lg leading-8 text-white;
+  }
+  .h1 {
+    @apply font-primary text-[52px] mb-6 tracking-[10%] uppercase;
   }
   .h2 {
     @apply font-primary text-[32px] mb-6 tracking-[10%] uppercase;

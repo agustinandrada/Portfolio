@@ -36,47 +36,69 @@ const About = () => {
             viewport={{ once: false, amount: 0.3 }}
             className="flex-1"
           >
-            <h2 className="h2 text-accent">About Me</h2>
-            <h3 className="h3 mb-4">
-              Hello! I'm Agustin Andrada, a passionate Freelancer Full Stack
-              Developer. With almost a year of experience in the field, I'm
-              driven by a deep passion for technology and a strong desire to
-              create innovative solutions that make a positive impact.
-            </h3>
-            <p className="mb-6">
-              Alongside my technical skills, I have valuable leadership
-              experience as a dedicated scout for 16 years. This has taught me
-              the values of teamwork, adaptability, and inspiring others to
-              reach their full potential, creating a collaborative and
-              empowering work environment.
-            </p>
-            {/* stats */}
-            <div className="flex gap-x-6 lg:gap-x-10 mb-12">
-              <div>
-                <div className="text-[40px] font-tertiary text-gradient mb-2">
-                  <CountUp start={0} end={1} duration={10} />
+            <h2 className="h2 text-accent">Sobre Mi</h2>
+
+            <motion.div
+              variants={fadeIn("left", 2)}
+              initial="hidden"
+              whileInView={"show"}
+              viewport={{ once: false, amount: 0.3 }}
+              className="flex-1"
+            >
+              <h3 className="h3 mb-4">
+                Hola! Soy Agustin Andrada, un apasionado Desarrollador Full Stack.
+                Con experiencia en la creación de aplicaciones web y móviles, utilizando tecnologías como React, Node.js, Express, JavaScript, PHP, Laravel, PostgreSQL y MySQL.
+              </h3>
+            </motion.div>
+
+            <motion.div
+              variants={fadeIn("left", 3)}
+              initial="hidden"
+              whileInView={"show"}
+              viewport={{ once: false, amount: 0.3 }}
+              className="flex-1"
+            >
+              <p className="mb-6">
+                Ademas de mis habilidades técnicas, puedo trabajar en equipo y colaborar para crear soluciones eficientes y escalables para mis clientes.
+                Soy Scout hace 16 años por lo que estoy constantemente aprendiendo y mejorando mis habilidades, tanto para adaptarme a nuevos desafios,
+                como para liderar cuando es necesario.
+              </p>
+            </motion.div>
+            <motion.div
+              variants={fadeIn("left", 4)}
+              initial="hidden"
+              whileInView={"show"}
+              viewport={{ once: false, amount: 0.3 }}
+              className="flex-1"
+            >
+              {/* stats */}
+              <div className="flex gap-x-6 lg:gap-x-10 mb-12">
+                <div>
+                  <div className="text-[40px] font-tertiary text-gradient mb-2">
+                    <CountUp start={0} end={2} duration={5} />
+                  </div>
+                  <div className="font-primary text-sm tracking-[2px]">
+                    Años de  <br /> Experiencia
+                  </div>
                 </div>
-                <div className="font-primary text-sm tracking-[2px]">
-                  Year of <br /> Experience
+                <div>
+                  <div className="text-[40px] font-tertiary text-gradient mb-2">
+                    <CountUp start={0} end={6} duration={5} />
+                  </div>
+                  <div className="font-primary text-sm tracking-[2px]">
+                    Proyectos <br /> Completados
+                  </div>
+                </div>
+                <div>
+                  <div className="text-[40px] font-tertiary text-gradient mb-2">
+                    <CountUp start={0} end={4} duration={5} />
+                  </div>
+                  <div className="font-primary text-sm tracking-[2px]">
+                    Clientes <br /> Santisfechos
+                  </div>
                 </div>
               </div>
-              <div>
-                <div className="text-[40px] font-tertiary text-gradient mb-2">
-                  <CountUp start={0} end={4} duration={10} />
-                </div>
-                <div className="font-primary text-sm tracking-[2px]">
-                  Completed <br /> Projects
-                </div>
-              </div>
-              <div>
-                <div className="text-[40px] font-tertiary text-gradient mb-2">
-                  <CountUp start={0} end={2} duration={10} />
-                </div>
-                <div className="font-primary text-sm tracking-[2px]">
-                  Satisfied <br /> Clients
-                </div>
-              </div>
-            </div>
+            </motion.div>
           </motion.div>
         </div>
       </div>

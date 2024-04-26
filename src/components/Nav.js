@@ -2,7 +2,7 @@ import React from "react";
 
 //* Import Incons
 import { BiClipboard, BiHomeAlt, BiUser } from "react-icons/bi";
-import { BsClipboardData, BsBriefcase, BsChatSquare } from "react-icons/bs";
+import { BsClipboardData, BsBriefcase, BsChatSquare, BsCodeSlash } from "react-icons/bs";
 
 //? Link
 import { Link } from "react-scroll";
@@ -32,7 +32,7 @@ const Nav = () => {
           >
             <BiUser />
           </Link>
-          <Link
+          {/* <Link
             to="service"
             activeClass="active"
             smooth={true}
@@ -40,7 +40,7 @@ const Nav = () => {
             className="cursor-pointer w-[60px] h-[60px] flex items-center justify-center"
           >
             <BsClipboardData />
-          </Link>
+          </Link> */}
           <Link
             to="work"
             activeClass="active"
@@ -49,6 +49,15 @@ const Nav = () => {
             className="cursor-pointer w-[60px] h-[60px] flex items-center justify-center"
           >
             <BsBriefcase />
+          </Link>
+          <Link
+            to="projects"
+            activeClass="active"
+            smooth={true}
+            spy={true}
+            className="cursor-pointer w-[60px] h-[60px] flex items-center justify-center"
+          >
+            <BsCodeSlash />
           </Link>
           <Link
             to="contact"

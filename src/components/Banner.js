@@ -49,16 +49,16 @@ const Banner = () => {
               className="mb-6 text-[36px] lg:text-[60px] font-secondary 
             font-semibold uppercase leading-[1]"
             >
-              <span className="mr-4 text-white">I am a</span>
+              <span className="mr-4 text-white">Soy</span>
               <TypeAnimation
                 sequence={[
-                  "Developer",
+                  "Desarrollador",
                   2000,
-                  "Designer",
+                  "Diseñador",
                   2000,
                   "Scout",
                   2000,
-                  "Youtuber",
+                  "Full Stack",
                   2000,
                 ]}
                 speed={50}
@@ -76,7 +76,7 @@ const Banner = () => {
             mx-auto lg:mx-0"
             >
               <h2 className="text-white font-bold btn-link flex text-[18px]">
-                "Leave this world a little better than you found it." ~ Robert
+                "Dejad este mundo en mejores condiciones que como lo encontraron." ~ Robert
                 Baden-Powell
               </h2>
             </motion.div>
@@ -118,7 +118,7 @@ const Banner = () => {
                 className="text-gradient btn-link flex text-[18px]"
                 target="_blank"
               >
-                Contact Me
+                Contactame
               </a>
             </motion.div>
           </div>
