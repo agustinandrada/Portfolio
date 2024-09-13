@@ -24,15 +24,17 @@ import Img1 from "../assets/dg.png";
 import Img2 from "../assets/oro.png";
 import Img3 from "../assets/neuro.png";
 import Img4 from "../assets/dallas.png";
+import Img5 from "../assets/ingreso.png";
 
 const Projects = () => {
-    const images = [Img1, Img2, Img3, Img4]; // Rutas de las imágenes
-    const nombres = ["DG-Torneos", "Oroquieta-Higieclin", "Neuroeducativa", "Dallas Pool & Bar"];
-    const hipervinculos = ["http://181.118.69.61:8023", "http://oroquieta.cl/public/", "https://sistema.neuroeducativa.cl", "https://dallas-iota.vercel.app"];
+    const images = [Img1, Img2, Img3, Img4, Img5]; // Rutas de las imágenes
+    const nombres = ["DG-Torneos", "Oroquieta-Higieclin", "Neuroeducativa", "Dallas Pool & Bar", "Ingreso Domselaar"];
+    const hipervinculos = ["http://181.118.69.61:8023", "http://oroquieta.cl/public/", "https://sistema.neuroeducativa.cl", "https://dallas-iota.vercel.app", "https://ingresodomselaar.com.ar/estancias/login/"];
     const descripciones = ["Plataforma de reservas de canchas, con integración con la API de SMS y plataforma de pago con Mercado Pago. Tecnologías: Laravel, PHP, Boostrap, Api para envios SMS.",
         "Integración con la API Laudus para gestión de Lotes, producción y facturación. Tecnologías: Laravel, PHP, Postman, Laudus, Tailwin CSS, Mailer.",
         "Plataforma de evaluación docente. Tecnologías: Laravel, PHP, Boostrap, laravel-excel, DomPDF, ChartJs, Mailer.",
-        "Página web para un bar de la ciudad de Santa Fe donde los clientes pueden ver la carta de las comidas y bebidas, hacer reservas e interactuar con el local"]
+        "Página web para un bar de la ciudad de Santa Fe donde los clientes pueden ver la carta de las comidas y bebidas, hacer reservas e interactuar con el local",
+        "Sistema de ingreso a un barrio privado, para ser utilizado por la gente de seguridad, desarrollado con Laravel 11, Bootstrap, PHP"]
 
     const [currentImageIndex, setCurrentImageIndex] = useState(0);
 
