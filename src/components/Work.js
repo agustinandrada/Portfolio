@@ -121,14 +121,15 @@ const Work = () => {
               >
                 <div>
                   <h2 className="h3 mb-4 titulo-link">
-                    <a href="https://agustin-andrada.vercel.app" target="_blank">Freelance</a>
+                    <a href="https://agustin-andrada.vercel.app" target="_blank">ArgDG</a>
                   </h2>
                   <h3 className="max-w-sm mb-2">
-                    Como freelance, me encargo de crear soluciones para pequeños y medianos negocios. Tratando siempre de buscar
-                    la mejor solución para sus necesidades con el menor costo y el mejor tiempo posible.
+                    Como freelance, brindo servicio a ArgDG, que es un estudio de diseño y comunicación digital y gráfico, ubicado en Bs As, Argentina.
+                    Con una concepción aplicada a cada cliente según el desafío que nos proponga en cada trabajo, con profesionales en diferentes áreas
+                    con los que formamos un equipo que mediante la interacción nos mantenemos siempre actualizados en tendencia y tecnología.
                   </h3>
                   <p className="max-w-sm mb-16 text-blue-500">
-                    Utilicé tecnologías tales como React, Node, Express, JavaScript, HTML, CSS, Tailwind, PostgreSQL.
+                    Utilicé tecnologías tales como React, Node, Express, JavaScript, HTML, CSS, Tailwind, PostgreSQL, Docker, Laravel, PHP, Manejo de Hosting.
                   </p>
                 </div>
               </motion.div>
