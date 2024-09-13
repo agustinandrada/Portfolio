@@ -121,7 +121,7 @@ const Work = () => {
               >
                 <div>
                   <h2 className="h3 mb-4 titulo-link">
-                    <a href="https://agustin-andrada.vercel.app" target="_blank">ArgDG</a>
+                    <a href="https://www.argdg.com" target="_blank">ArgDG</a>
                   </h2>
                   <h3 className="max-w-sm mb-2">
                     Como freelance, brindo servicio a ArgDG, que es un estudio de diseño y comunicación digital y gráfico, ubicado en Bs As, Argentina.
