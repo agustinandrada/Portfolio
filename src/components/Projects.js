@@ -29,7 +29,7 @@ import Img6 from "../assets/portal.png";
 
 
 const Projects = () => {
-    const images = [Img1, Img2, Img3, Img4, Img5]; // Rutas de las imágenes
+    const images = [Img1, Img2, Img3, Img4, Img5, Img6]; // Rutas de las imágenes
     const nombres = ["DG-Torneos", "Oroquieta-Higieclin", "Neuroeducativa", "Dallas Pool & Bar", "Ingreso Domselaar", "Portal de Noticias"];
     const hipervinculos = ["http://181.118.69.61:8023", "http://oroquieta.cl/public/", "https://sistema.neuroeducativa.cl", "https://dallas-iota.vercel.app", "https://ingresodomselaar.com.ar/estancias/login/", "https://portal.fidelitytools.net"];
     const descripciones = ["Plataforma de reservas de canchas, con integración con la API de SMS y plataforma de pago con Mercado Pago. Tecnologías: Laravel, PHP, Boostrap, Api para envios SMS.",
