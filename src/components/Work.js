@@ -11,7 +11,7 @@ const Work = () => {
     <section id="work" className="section">
       <div className="container mx-auto">
         <motion.div
-          variants={fadeIn("right", 0.3)}
+          variants={fadeIn("right", 0.1)}
           initial="hidden"
           whileInView={"show"}
           viewport={{ once: false, amount: 0.3 }}
