@@ -41,7 +41,32 @@ const Work = () => {
                 <button className="btn bn-sm">View all projects</button>
               </a> */}
             </div>
+
             <div className="flex gap-x-6 flex-col lg:flex-row">
+
+              <motion.div
+                variants={fadeIn("right", 1)}
+                initial="hidden"
+                whileInView={"show"}
+                viewport={{ once: false, amount: 0.3 }}
+                className="flex-1 flex flex-col gap-y-12 mb-10 lg:mb-0"
+              >
+                <div>
+                  <h2 className="h3 mb-4 titulo-link">
+                    <a href="https://www.fidelitytools.com" target="_blank">Fidelitytools</a>
+                  </h2>
+                  <h3 className="max-w-sm mb-2">
+                    Es un software de inteligencia comercial que potencia la comunicación,
+                    la fidelización y las ventas de las empresas a través de diversas herramientas:
+                    CRM, WhatsApp PRO, Big Data, captación de leads, asignaciones automáticas,
+                    cotizaciones, email marketing, e-commerce, etc.
+                  </h3>
+                  <p className="max-w-sm mb-16 text-blue-500">
+                    Utilicé tecnologías tales como Laravel, PHP, MySQL, JavaScript, HTML, CSS, Tailwind, Boostrap, Livewire, Yii, Docker.
+                  </p>
+                </div>
+              </motion.div>
+
               <motion.div
                 variants={fadeIn("right", 1)}
                 initial="hidden"
@@ -64,6 +89,8 @@ const Work = () => {
                   </p>
                 </div>
               </motion.div>
+
+
               <motion.div
                 variants={fadeIn("right", 2)}
                 initial="hidden"
