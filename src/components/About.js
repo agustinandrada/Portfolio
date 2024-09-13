@@ -83,7 +83,7 @@ const About = () => {
                 </div>
                 <div>
                   <div className="text-[40px] font-tertiary text-gradient mb-2">
-                    <CountUp start={0} end={6} duration={5} />
+                    + <CountUp start={0} end={10} duration={5} />
                   </div>
                   <div className="font-primary text-sm tracking-[2px]">
                     Proyectos <br /> Completados
@@ -91,7 +91,7 @@ const About = () => {
                 </div>
                 <div>
                   <div className="text-[40px] font-tertiary text-gradient mb-2">
-                    <CountUp start={0} end={4} duration={5} />
+                    + <CountUp start={0} end={10} duration={5} />
                   </div>
                   <div className="font-primary text-sm tracking-[2px]">
                     Clientes <br /> Santisfechos
